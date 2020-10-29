@@ -1,0 +1,866 @@
+#b
+{
+	background-color: #f2f2f2;
+	margin: 0 !important;
+	min-height: 100%;
+}
+
+.sticky
+{
+	position:  fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.fb
+{
+	z-index: 1;
+	position: fixed;
+	height: 70px;
+	width: 50px;
+	margin-top:135px;
+}
+.fb:hover
+{
+	cursor: pointer;
+	height: 72px;
+	width: 52px;
+}
+.panel_glowny
+{
+	z-index: 1;
+	height: 120px;
+	width: 100%;
+	font-weight: bold;
+	background-color: white;
+}
+.menu
+{
+	font-size: 17px;
+	font-family: sans-serif;
+	float: right;
+	margin-top:  3%;
+	width:60%;
+	text-align:  center;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5%;
+}
+.divlogo
+{
+	margin-top: 1%;
+	height: 75%;
+	width : 22%;
+	position: relative;
+	float: left;
+	margin-left: 5%;
+	margin-right: auto;
+}
+.divlogo:hover .ikona
+{
+	transform: rotate(1000deg);
+}
+.oferta
+{
+	cursor: pointer;
+	margin: 2px;
+	border-right: 2px solid black;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.glowna
+{
+	margin: 2px;
+	border-right: 2px solid black;
+	/* width: 25%; */
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.lokalizacje
+{
+	margin: 2px;
+	border-right: 2px solid black;
+	/* width: 33%; */
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.o_nas
+{
+	margin: 2px;
+	border-right: 2px solid black;
+	/* width: 13%; */
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.kontakt
+{
+	padding-left: 8px;
+	padding-right: 8px;
+	/* width: 17%; */
+}
+.glowna:hover , .lokalizacje:hover , .o_nas:hover , .kontakt:hover, .oferta:hover
+{
+	color : blue;
+	cursor: hand;
+}
+.ikona
+{
+	height: 100%;
+	width: 30%;
+	float: left;
+	transition: all 5s;
+	transition-timing: ease-in-out;
+}
+.napis
+{
+
+	margin-top: 8%;
+	margin-left: 2%;
+	width: 68%;
+	height: 50%;
+	float: right;
+}
+
+.cont
+{
+	min-height:calc(100% - 50px);
+	width : 100%;
+	position: relative;
+	overflow: auto;
+}
+
+.zdj_ozon
+{
+	float:left;
+	height: 45%;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 2%;
+	border-radius:  5px 5px 5px 5px;
+}
+.tekst_ozon
+{
+	float:right;
+ 	width: 58%;
+	padding-top: 5%;
+	padding-right: 5%;
+	line-height: 1cm;
+	text-align: justify;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.tekst_sprawna_klima
+{
+	float:right;
+	width: 58%;
+	padding-left: 2%;
+	margin-right: 5%;
+	margin-top: 8%;
+	line-height: 1cm;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.zdj_sprawna_klima
+{
+	float:left;
+	margin-top: 8%;
+	height: 45%;
+	width: 30%;
+	margin-left: 5%;
+	border-radius:  5px 5px 5px 5px;
+}
+.tekst_o_nas
+{
+	float:left;
+	width: 60%;
+	text-align: justify;
+ 	line-height: 1cm;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align : center;
+	font-size:  15;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.zdj_o_nas
+{
+	width: 30%;
+	height: 300px;
+	float:right;
+	margin-top: 5%;
+	margin-right: 5%;
+	border-radius:  5px 5px 5px 5px;
+}
+.biale_tlo
+{
+	min-height:calc(80%);
+	width:90%;
+	background-color: white;
+	margin: 10px auto 10px auto;
+	position: relative;
+
+}
+.dlaczego_my
+{
+	font-size: 20px;
+	float:left; width:67%;
+	margin: 0.5px ;
+	text-align: justify;
+	line-height: 1cm;
+}
+.dlaczego_my_zdjecie
+{
+	float:right;
+	border-radius:  5px 5px 5px 5px;;
+	vertical-align: middle;
+}
+.glowna_dane
+{
+	position: relative;
+	overflow: auto;
+	width: 80%;
+	margin: 5%;
+	padding: 5%;
+	background-color: white;
+}
+.wsp , .ind
+{
+	padding: 10%;
+	width: 30%;
+	height: 60%;
+}
+
+.width
+{
+	float : left;
+}
+.ind
+{
+	float: right;
+}
+
+#tekst_lokalizacje
+{
+	font-family: sans-serif;
+	text-align : center;
+	font-size:  18;
+	width : 90%;
+	margin-left: auto;
+    margin-right: auto;
+}
+#stopka
+{
+	background-color:  #333333;
+	border-top: 3px solid  #333333;
+	width : 100%;
+	height: 10%;
+	text-align: center;
+	clear: both;
+	position:relative;
+	bottom: 0;
+	margin-top: 15px;
+}
+.dane
+{
+	font-weight: bold;
+	float:left;
+	width: 33%;
+	text-align: center;
+	margin-top: 7%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 12%;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+.tel
+{
+	font-weight: bold;
+	float: right;
+	width: 33%;
+	text-align: center;
+	margin-top: 7%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 12%;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.mail
+{
+
+	font-weight: bold;
+	float: right;
+	width: 33%;
+	text-align: center;
+	margin-top: 7%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 12%;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.stopkatext
+{
+	font-family: sans-serif;
+	font-size: 10px;
+	margin-top: 2%;
+	color: gray;
+}
+#danef
+{
+	float: left ;
+	font-family: sans-serif;
+	font-size: 15;
+	width : 45%;
+
+}
+#danek
+{
+	float: right;
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 15;
+	width : 45%;
+}
+#koniec
+{
+	clear: both;
+}
+#map
+{
+	text-align : center;
+	width: 90%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+}
+
+.hovereffect-1 {
+	width: 38%;
+	height: 60%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+}
+.hovereffect-1 .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out
+}
+.hovereffect-1 img {
+	display: block;
+	position: relative;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+}
+.hovereffect-1 h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	background: rgba(0, 0, 0, 0.6);
+	-webkit-transform: translatey(-100px);
+	-ms-transform: translatey(-100px);
+	transform: translatey(-100px);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	padding: 10px;
+}
+.hovereffect-1 a.info {
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: transparent;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin: 0 0 0;
+	padding: 7px 14px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.hovereffect-1 a.info:hover {
+	box-shadow: 0 0 5px #fff;
+}
+.hovereffect-1:hover img {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.hovereffect-1:hover .overlay {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.hovereffect-1:hover a.info {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.hovereffect-1:hover h2 {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-transform: translatey(0);
+	-webkit-transform: translatey(0);
+	transform: translatey(0);
+}
+.hovereffect-1:hover a.info {
+	-webkit-transition-delay: .2s;
+	transition-delay: .2s;
+}
+
+
+@media all and (max-width:800px) {
+	#b
+	{
+		background-color: #f2f2f2;
+		margin: 0 !important;
+		min-height: 100%;
+	}
+
+	.sticky
+	{
+		position:  fixed;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	.fb
+	{
+		display: none;
+		z-index: 1;
+		position: fixed;
+		height: 70px;
+		width: 50px;
+		margin-top:135px;
+	}
+	.fb:hover
+	{
+		cursor: pointer;
+		height: 72px;
+		width: 52px;
+	}
+	.panel_glowny
+	{
+		z-index: 1;
+		height: 150px;
+		width: 100%;
+		font-weight: bold;
+		background-color: white;
+		margin-bottom: 3px;
+	}
+	.menu
+	{
+		font-size: 8px;
+		font-family: sans-serif;
+		background-color: #d9d9d9;
+		text-align:  center;
+		height: 25%;
+		float: none;
+		width: 100%;
+	}
+	.divlogo
+	{
+		margin-top: 1%;
+		height: 60%;
+		position: relative;
+		margin-left: 5%;
+		margin-right: auto;
+		float: none;
+		width: 90%;
+	}
+	.divlogo:hover .ikona
+	{
+		transform: rotate(1000deg);
+	}
+	.oferta
+	{
+		cursor: pointer;
+		margin: 2px;
+		border-right: 2px solid black;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.glowna
+	{
+		margin: 2px;
+		border-right: 2px solid black;
+		/* width: 25%; */
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.lokalizacje
+	{
+		margin: 2px;
+		border-right: 2px solid black;
+		/* width: 33%; */
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.o_nas
+	{
+		margin: 2px;
+		border-right: 2px solid black;
+		/* width: 13%; */
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.kontakt
+	{
+		padding-left: 8px;
+		padding-right: 8px;
+		/* width: 17%; */
+	}
+	.glowna:hover , .lokalizacje:hover , .o_nas:hover , .kontakt:hover, .oferta:hover
+	{
+		color : blue;
+		cursor: hand;
+	}
+	.ikona
+	{
+		height: 100%;
+		width: 30%;
+		float: left;
+		transition: all 5s;
+		transition-timing: ease-in-out;
+	}
+	.napis
+	{
+
+		margin-top: 8%;
+		margin-left: 2%;
+		width: 68%;
+		height: 50%;
+		float: right;
+	}
+
+	.cont
+	{
+		height: auto !important;
+		width : 100%;
+		position: relative;
+		overflow: auto;
+	}
+
+	.glowna_dane
+	{
+		overflow: auto;
+		font-size: 8px;
+		width: 80%;
+		margin: 5%;
+		padding: 5%;
+		background-color: white;
+	}
+	.dlaczego_my
+	{
+		font-size: 9px;
+		float:none;
+		width:100%;
+		margin: 0.5px ;
+		text-align: justify;
+		line-height: 0.4cm;
+	}
+	.dlaczego_my_zdjecie
+	{
+		display: none;
+		float:right;
+		border-radius:  5px 5px 5px 5px;;
+		vertical-align: middle;
+	}
+	.tekst_o_nas
+	{
+		float: none;
+		width: 100%;
+		text-align: justify;
+	 	line-height: 0.4cm;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size:  9;
+		margin-top: 5%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.zdj_o_nas
+	{
+		float: none;
+		width: 70%;
+		height: 50%;
+		margin-left: 15%;
+		border-radius:  5px 5px 5px 5px;
+	}
+	.zdj_ozon
+	{
+	float:none;
+	height: 40%;
+	width: 60%;
+	margin-left: 20%;
+	border-radius:  5px 5px 5px 5px;
+	}
+
+	.tekst_ozon
+	{
+		margin-left: auto;
+		margin-right: auto;
+		float:none;
+	 	width: 80%;
+		padding:5%;
+		font-size: 9px;
+		line-height: 0.4cm;
+		text-align: justify;
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.zdj_sprawna_klima
+	{
+		float:none;
+		margin-top: 8%;
+		height: 50%;
+		width: 70%;
+		margin-left: 15%;
+		border-radius:  5px 5px 5px 5px;
+	}
+	.tekst_sprawna_klima
+	{
+		float:none;
+		width: 80%;
+		line-height: 0.4cm;
+		margin-left: 10%;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 9px;
+	}
+	.biale_tlo
+	{
+		height: 40%;
+		width:90%;
+		background-color: white;
+		margin: 10px auto 10px auto;
+ 		position: relative;
+		padding: 5%;
+	}
+	.wsp , .ind
+	{
+		padding: 10%;
+		width: 30%;
+		height: 60%;
+	}
+
+	.width
+	{
+		float : left;
+	}
+	.ind
+	{
+		float: right;
+	}
+	#tekst_lokalizacje
+	{
+		font-family: sans-serif;
+		text-align : center;
+		font-size:  9;
+		width : 90%;
+		margin-left: auto;
+	  margin-right: auto;
+	}
+	#stopka
+	{
+		background-color:  #333333;
+		border-top: 3px solid  #333333;
+		width : 100%;
+		height: 10%;
+		text-align: center;
+		clear: both;
+		position:relative;
+		bottom: 0;
+		margin-top: 15px;
+	}
+	.dane
+	{
+		font-weight: bold;
+		float:none;
+		width: 33%;
+		text-align: center;
+		margin-top: 7%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 12%;
+		font-size: 9px;
+		font-family: sans-serif;
+	}
+
+	.tel
+	{
+		font-weight: bold;
+		float: left;
+		width: 50%;
+		text-align: center;
+		margin-top: 7%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 12%;
+		font-size: 9px;
+		font-family: sans-serif;
+	}
+	.mail
+	{
+		font-weight: bold;
+		float: right;
+		width: 50%;
+		text-align: center;
+		margin-top: 7%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 12%;
+		font-size: 9px;
+		font-family: sans-serif;
+	}
+	.stopkatext
+	{
+		font-family: sans-serif;
+		font-size: 10px;
+		margin-top: 2%;
+		color: gray;
+ 		bottom: 0;
+
+	}
+	#danef
+	{
+		display: none;
+		float: left ;
+		font-family: sans-serif;
+		font-size: 15;
+		width : 45%;
+
+	}
+	#danek
+	{
+		display:  none;
+		float: right;
+		text-align: right;
+		font-family: sans-serif;
+		font-size: 15;
+		width : 45%;
+	}
+	#koniec
+	{
+		display:  none;
+		clear: both;
+	}
+	#map
+	{
+		text-align : center;
+		width: 90%;
+		height: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5%;
+	}
+
+	.hovereffect-1 {
+
+		width: 38%;
+		height: 38%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: pointer;
+	}
+	.hovereffect-1 .overlay {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		-webkit-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out
+	}
+	.hovereffect-1 img {
+		display: block;
+		position: relative;
+		-webkit-transition: all .4s linear;
+		transition: all .4s linear;
+	}
+	.hovereffect-1 h2 {
+		text-transform: uppercase;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		font-size: 9px;
+		background: rgba(0, 0, 0, 0.6);
+		-webkit-transform: translatey(-100px);
+		-ms-transform: translatey(-100px);
+		transform: translatey(-100px);
+		-webkit-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+		padding: 10px;
+	}
+	.hovereffect-1 a.info {
+		text-decoration: none;
+		display: inline-block;
+		text-transform: uppercase;
+		color: #fff;
+		border: 1px solid #fff;
+		background-color: transparent;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		-webkit-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+		margin: 0 0 0;
+		padding: 7px 14px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.hovereffect-1 a.info:hover {
+		box-shadow: 0 0 5px #fff;
+	}
+	.hovereffect-1:hover img {
+		-ms-transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	.hovereffect-1:hover .overlay {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	.hovereffect-1:hover a.info {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+	.hovereffect-1:hover h2 {
+		opacity: 1;
+		filter: alpha(opacity=100);
+		-ms-transform: translatey(0);
+		-webkit-transform: translatey(0);
+		transform: translatey(0);
+	}
+	.hovereffect-1:hover a.info {
+		-webkit-transition-delay: .2s;
+		transition-delay: .2s;
+	}
+}

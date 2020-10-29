@@ -1,0 +1,283 @@
+.myslides{
+
+position: relative;
+display: none;
+margin: 0;
+width: 100%;
+height: 100%;
+display: table;
+}
+
+.wiecej
+{
+  padding-top: 3%;
+  text-align: center;
+  position: absolute;
+  bottom:  0;
+  height: 14%;
+  width: 100%;
+  cursor: pointer;
+  background-color: lightblue;
+  border-radius:  3px 3px 0 0;;
+}
+.wiecej:hover
+{
+  color: blue;
+  font-weight: bold;
+}
+.text
+{
+  font-size: 32px;
+  color: white;
+  font-family:  serif;
+  margin: 5%;
+}
+
+.textimg1
+{
+  margin: 5%;
+  position: absolute;
+  text-align: center;
+  float: left;
+  font-family: monospace;
+  top: 0;
+  width: 30%;
+  height: 65%;
+  color: dark;
+  background-color: #404040;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+
+.slideshow-container
+{
+  height: 60%;
+  margin-left: 5%;
+  margin-right:  5%;
+}
+
+.prev , .next{
+
+margin: 5%;
+position: absolute;
+top: 50%;
+font-size: 18px;
+font-weight: bold;
+padding: 16px;
+margin-top: -22px;
+border-radius: 0 3px 3px 0;
+color: #fff;
+cursor: pointer;
+}
+.prev
+{
+  left: 0;
+}
+.next{
+
+right: 0;
+
+border-radius: 3px 0 0 3px;
+
+}
+
+.prev:hover,.next:hover{
+
+background-color: rgba(0,0,0,0.8);
+
+}
+
+.caption{
+
+text-align: center;
+position: absolute;
+bottom: 8px;
+width: 100%;
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 22px;
+}
+
+.dots{
+
+width: 13px;
+height: 13px;
+background: gray;
+display: inline-block;
+border-radius: 50%;
+cursor: pointer;
+
+}
+
+.fade{
+
+animation-name:fade;
+
+animation-duration:1.5s;
+
+}
+
+@keyframes fade{
+
+from {opacity: 0.4;}
+
+to {opacity: 1;}
+
+}
+
+.active, .dot:hover {
+
+background-color: #333;
+
+}
+
+@media all and (max-width:800px) {
+  .myslides{
+
+
+  position: relative;
+  display: none;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  }
+  .slideshow-container
+  {
+    height: 60%;
+    margin-left: 5%;
+    margin-right:  5%;
+  }
+  .wiecej
+  {
+    padding-top: 3%;
+    text-align: center;
+    position: absolute;
+    bottom:  0;
+    height: 14%;
+    width: 100%;
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius:  3px 3px 0 0;;
+  }
+  .wiecej:hover
+  {
+    color: blue;
+    font-weight: bold;
+  }
+  .text
+  {
+    font-size: 14px;
+    color: white;
+    font-family:  serif;
+    margin: 5%;
+
+
+  }
+  .textimg1
+  {
+
+    margin: 5% 0 0 10%;
+    position: absolute;
+    text-align: center;
+    float: left;
+    font-family: monospace;
+    top: 0;
+    width: 50%;
+    height: 40%;
+    color: dark;
+    background-color: #404040;
+    font-size: 10px;
+    opacity: 0.9;
+  }
+
+
+  .prev , .next{
+
+  margin: 5%;
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: -22px;
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+  cursor: pointer;
+
+  }
+  .prev
+  {
+
+    left: 0;
+  }
+  .next
+  {
+
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover,.next:hover
+  {
+
+  background-color: rgba(0,0,0,0.8);
+  }
+
+  .caption{
+
+  text-align: center;
+
+  position: absolute;
+
+  bottom: 8px;
+
+  width: 100%;
+
+  color: #f2f2f2;
+
+  font-size: 15px;
+
+  padding: 8px 22px;
+
+  }
+
+  .dots{
+
+  width: 13px;
+
+  height: 13px;
+
+  background: gray;
+
+  display: inline-block;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  }
+
+  .fade{
+
+  animation-name:fade;
+
+  animation-duration:1.5s;
+
+  }
+
+  @keyframes fade{
+
+  from {opacity: 0.4;}
+
+  to {opacity: 1;}
+
+  }
+
+  .active, .dot:hover {
+
+  background-color: #333;
+
+  }
+}
